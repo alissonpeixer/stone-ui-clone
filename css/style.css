@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
+
+  animation: all 2s;
 }
 
 html, body{
+  color: var( --dark-secondary);
   font-family: 'Noto Sans';
 }
 
@@ -68,9 +71,10 @@ html, body{
 }
 .btn__login{
   width: 80px;
-  border: var(--dark-border-opacity) 2px solid;
+  border: var(--dark-border-opacity) 1px solid;
   height: 50px;
   font-size: 15px;
+  background: transparent;
   font-weight: 700;
 }
 .btn__register{
@@ -118,7 +122,6 @@ html, body{
 }
 
 /* section 01 */
-
 .text__sec01{
   display: flex;
   flex-direction: column;
@@ -128,9 +131,10 @@ html, body{
 .title__sec01{
   font-size: 40px;
   font-weight: 700;
+  line-height: 50px;
 }
 .p__sec01{
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   padding: 20px 0 20px 0;
   line-height: 26px;
@@ -195,4 +199,46 @@ html, body{
 .more__flex svg{
   height: 13px;
   width: 30px;
+}
+
+
+/* section 03 */
+.text__sec03{
+  width: 550px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subTitle__sec03{
+  height: 26px;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--green-dark);
+  margin-bottom: 10px;
+}
+.title__sec03{
+  height: 130px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+ 
+}
+
+.p__sec03{
+  height: 120px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.more__sec03{
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--green-primary);
 }
