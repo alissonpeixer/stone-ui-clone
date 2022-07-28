@@ -1,0 +1,17 @@
+:root{
+  /* Green */
+  --green-light: #42ec9a;
+  --green-primary: #00a868;
+  --green-dark: #00734d;
+
+  /* Dark */
+  --dark-primary: #20252a;
+  --dark-secondary: #31383f;
+  --dark-border-opacity: #31383f67;
+
+  /* Light */
+  --light-priamry: #ffffff;
+  --light-secondary: #f7f9fd;
+  --light-tertiary: #eff4f8;
+  --light-quaternary: #e8e8e8;
+}
