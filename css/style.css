@@ -304,6 +304,9 @@ html, body{
 }
 .footer__info{
   height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--dark-primary);
 }
 
@@ -342,4 +345,21 @@ html, body{
   
   color: var(--green-primary);
   height: 30px;   
+}
+
+/* footer info */
+
+
+.info__container{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.social__list{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
 }
