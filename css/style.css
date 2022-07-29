@@ -7,6 +7,8 @@
 html, body{
   color: var( --dark-secondary);
   font-family: 'Noto Sans';
+
+  scroll-behavior: smooth;
 }
 
 #header{
@@ -35,6 +37,18 @@ html, body{
   justify-content: center;
 }
 
+#section__footer{
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(  --light-tertiary);
+}
+#footer__{
+  height: 493px;
+}
 
 .container{
   width: 800px;
@@ -241,4 +255,91 @@ html, body{
   font-size: 18px;
   font-weight: 600;
   color: var(--green-primary);
+}
+
+.app__store svg {
+  margin-right: 20px;
+}
+
+
+
+/* section footer */
+.title__secFooter{
+  width: 774px;
+  line-height: 48px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.container__buttonFooter{
+  display: flex;
+  padding: 30px;
+}
+.container__buttonFooter button{
+  height: 56px;
+  width: 232px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 90px;
+}
+
+.tax__btn{
+  background: var(--green-light);
+
+}
+.login__btn{
+  background-color: var(--light-quaternary);
+  border: 1px solid var(--dark-border-opacity);
+}
+
+
+/* footer */
+.footer__navbar{
+  height: 296px;
+  background-color: var(--dark-secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__info{
+  height: 200px;
+  background-color: var(--dark-primary);
+}
+
+
+/* navbar footer */
+.navbar__container {
+  height: 136px;
+  width: 77%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container__card{
+  color: var(--light-priamry);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.card__title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.card__text{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.card__link{
+
+  padding: 10px 0;
+  font-weight: 600;
+  
+  color: var(--green-primary);
+  height: 30px;   
 }
