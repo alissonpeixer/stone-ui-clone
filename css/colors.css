@@ -15,3 +15,18 @@
   --light-tertiary: #eff4f8;
   --light-quaternary: #e8e8e8;
 }
+
+/* custom scroll bar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-light);
+  border-radius: 90px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-dark);
+}
