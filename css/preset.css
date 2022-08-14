@@ -1,0 +1,62 @@
+
+h1{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.typography{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.mb-10{
+    margin-bottom: 20px;
+}
+
+.green-principal{
+    color: var(--green-primary);
+}
+
+
